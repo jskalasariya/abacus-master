@@ -46,3 +46,13 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+# Local Android SDK configuration
+/android/local.properties
+
+# Signing credentials and secrets
+key.properties
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
